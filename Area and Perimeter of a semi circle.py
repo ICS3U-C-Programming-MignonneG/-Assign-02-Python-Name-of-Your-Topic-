@@ -12,11 +12,10 @@ import math
 def main():
     # display the initial greeting to the user
     print("Welcome to the Semicircle Calculator program!")
-    print("The area and perimeter of a semicircle based on the radius you provide.")
     print("")
 
     # get the radius from the user
-    radius = float(input("Enter the radius of the semicircle: "))
+    radius = int(input("Enter the radius of the semicircle: "))
     print("")
 
     # process: calculate diameter, area, and perimeter
@@ -32,3 +31,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
