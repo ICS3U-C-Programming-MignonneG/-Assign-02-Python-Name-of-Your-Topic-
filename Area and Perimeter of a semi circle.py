@@ -23,6 +23,7 @@ def main():
     area = (math.pi * (radius**2)) / 2
     perimeter = (math.pi * (diameter / 2)) + diameter
 
+   
     # output: display the results to the user
     print("--- Results ---")
     print(f"Area of the semicircle: {area:.2f}")
